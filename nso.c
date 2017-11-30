@@ -19,5 +19,5 @@ else
 }
 }
 printf("the sum of odd no is %d",os);
-getch():
+getch();
 }
