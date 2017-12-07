@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+#include<string.h>
 void main()
 {
 char ch[200],c=1,i=0;
@@ -7,7 +8,7 @@ printf("enter the string");
 gets(ch);
 if(ch[i]!=0)
 {
-swithch(ch[i])
+swith(ch[i])
 {
 case 'a':c++;break;
 case 'b':c++;break;
@@ -36,17 +37,17 @@ case 'x':c++;break;
 case 'y':c++;break;
 case 'z':c++;break;
 case 'A':c++;break;
-case 'B':c++;brea;
+case 'B':c++;break;
 case 'C':c++;break;
 case 'D':c++;break;
-case 'E':c++;brea;
+case 'E':c++;break;
 case 'F':c++;break;
 case 'G':c++;break;
 case 'H':c++;break;
 case 'I':c++;break;
 case 'J':c++;break;
 case 'K':c++;break;
-case 'L':c++;brea;
+case 'L':c++;break;
 case 'M':c++;break;
 case 'N':c++;break;
 case 'O':c++;break;
