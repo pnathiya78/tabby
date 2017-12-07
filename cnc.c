@@ -8,7 +8,7 @@ printf("enter the string");
 gets(ch);
 if(ch[i]!=0)
 {
-swith(ch[i])
+switch(ch[i])
 {
 case 'a':c++;break;
 case 'b':c++;break;
@@ -62,6 +62,7 @@ case 'W':c++;break;
 case 'X':c++;break;
 case 'Y':c++;break;
 case 'Z':c++;break;
+default:break;  
 }
 i++;
 }
