@@ -3,10 +3,18 @@
 #include<string.h>
 void main()
 {
-char ch[500],i,c=0;
+char ch[500],i=0,c=0;
 gets(ch);
+while(ch[i]!=0)
+{
 if(ch[i]=='.')
 {
-c++;
+  c++;
 }
+  else
+  {
+}
+  i++;
+}
+printf("%d",c);
 }
