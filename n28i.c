@@ -10,6 +10,7 @@ scanf("\n%d",&a[i]);
 for(i=0;i<n;i++)
 {
 printf("%d",a[i]);
+  printf("%d",i);
 }
 return 0;
 }
