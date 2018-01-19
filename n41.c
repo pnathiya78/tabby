@@ -6,7 +6,7 @@ char s[30];
 int n,i;
 SCanf("%s",&s);
 scanf("%d",&n);
-for(i=o;i<n;i++)
+for(i=0;i<n;i++)
 {
 printf("%s",s);
 }
