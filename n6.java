@@ -7,10 +7,10 @@ Scanner n=new Scanner(System.in);
 b=n.nextInt();
 if((b%4)==0)
 {
-System.out.println("the year %d is a leap year",b);
+System.out.println("the year is a leap year");
 }
 else
 {
-System.out.println("the year %d is not a leap year",b);
+System.out.println("the year is not a leap year");
 }
 }
