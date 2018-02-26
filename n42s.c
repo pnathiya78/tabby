@@ -27,6 +27,7 @@ else if(j>i)
 	else
 	{
 		printf("equal");
+		printf("%s",d);
 	}
 	return 0;
 }
